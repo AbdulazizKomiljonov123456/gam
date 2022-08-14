@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <title>game</title>
+</head>
+<body>
+    <section class="mainSection">
+        <div class="flyCars">
+            <div class="waveWrapper">
+                <div class="traffic1" style="background-image: url('./images/2.png')"></div>
+            </div>
+            <div class="waveWrapper">
+                <div class="traffic2" style="background-image: url('./images/1.png')"></div>
+            </div>
+            <div class="waveWrapper">
+                <div class="traffic3" style="background-image: url('./images/2.png')"></div>
+            </div>
+        </div>
+        <div class="mainWrapp">
+            <span class="result"></span>
+            <div class="wrapp">
+                <ul class="gameList list">
+                    <li class="gameItem" data-ceil="1"></li>
+                    <li class="gameItem" data-ceil="2"></li>
+                    <li class="gameItem" data-ceil="3"></li>
+                    <li class="gameItem" data-ceil="4"></li>
+                    <li class="gameItem" data-ceil="5"></li>
+                    <li class="gameItem" data-ceil="6"></li>
+                    <li class="gameItem" data-ceil="7"></li>
+                    <li class="gameItem" data-ceil="8"></li>
+                    <li class="gameItem" data-ceil="9"></li>
+                </ul>
+                <div class="modalWrapp"></div>
+            </div>
+            <button class="play">Play</button>
+        </div>
+    </section>
+    <audio class="music" src="./MainTrack.mp3"></audio>
+    <script src="./js/script.js"></script>
+</body>
+</html>
